@@ -1,0 +1,21 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Głosuj</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+</head>
+<body>
+<hr>
+<p>System głosowania</p>
+<hr>
+
+{% block main_content %}
+{% endblock %}
+{% include 'polls/footer.html' %}
+
+
+</body>
+</html>
